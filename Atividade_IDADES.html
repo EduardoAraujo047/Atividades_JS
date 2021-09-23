@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Atividade_JS IDADES</title>
+</head>
+<body>
+    <div id="box">
+        <h1>Faixa etária</h1>
+        Nome: <input id="nome" type="text" placeholder="Digite seu nome"><br>
+    </br>
+        Ano de Nascimento: <input id="nascimento" type="date"><br>
+    </br>
+        <button class="bottom" onclick="faixas()">Calcular</button>
+    </div>
+
+    <script>
+        function faixas(){
+            let nome = document.getElementById("nome");
+            let nascimento = parseFloat(document.getElementById("nascimento").value);
+            let bottom = document.querySelector('.bottom');
+
+            let idade = (2021 - nascimento);
+
+            if(idade < 12){
+                box.innerHTML += `<p> ${nome.value} você tem ${idade} anos, é uma criança!</p>`
+            }
+            else if(idade >= 12 && idade < 18){
+                box.innerHTML += `<p> ${nome.value} você tem ${idade} anos, você é jovem!</p>`
+            }
+            else if(idade >= 18 && idade < 65){
+                box.innerHTML += `<p> ${nome.value} você tem ${idade} anos, você é adulto!</p>`
+            }
+            else if(idade >= 65){
+                box.innerHTML += `<p> ${nome.value} você tem ${idade} anos, você é idoso!</p>`
+            }
+        }
+    </script>
+</body>
+</html>
