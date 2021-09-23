@@ -1,0 +1,33 @@
+body{
+    background-color: #ebebebb6;
+}
+
+#box{
+    margin-left: 32%;
+    width: 500px;
+    height: 400px;
+    background-color: #cfcfcf;
+    border: solid 2px #000;
+    text-align: center;
+    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#box input{
+    margin-left: 10px;
+    outline-color: #ffcb3d;
+}
+
+#peso{
+    margin-right: 12px;
+}
+
+.bottom{
+    outline: none;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin-bottom: 10px;
+}
