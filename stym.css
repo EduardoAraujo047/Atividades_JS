@@ -1,0 +1,36 @@
+body{
+    background-color: #ebebebb6;
+}
+
+#box{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 0px 30%;
+}
+
+#box{
+    width: 500px;
+    height: 420px;
+    background-color: #cfcfcf;
+    border: solid 2px #000;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-radius: 5%;
+}
+
+#box input{
+    outline-color: #ffcb3d;
+}
+
+.bottom{
+    outline: none;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin-bottom: 10px;
+}
