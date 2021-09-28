@@ -3,6 +3,7 @@ body{
 }
 
 #box{
+    border-radius: 10px;
     margin-left: 32%;
     width: 500px;
     height: 280px;
